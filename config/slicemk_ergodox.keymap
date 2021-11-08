@@ -15,7 +15,7 @@
     &kp ESC    &kp A      &kp O      &kp E      &kp U      &kp I                            &kp D      &kp H      &kp T      &kp N      &kp S      &kp MINUS
     &kp LSFT   &kp SEMI   &kp Q      &kp J      &kp K      &kp X      &kp M_VOLD &kp M_VOLU &kp B      &kp M      &kp W      &kp V      &kp Z      &kp RSFT
     &kp EQL    &kp LCTL   &kp LALT   &kp LARW   &kp RARW                                               &kp UARW   &kp DARW   &kp RALT   &kp RGUI   &none
-                                                           &kp BSPC   &kp HOME   &kp END    &kp RALT
+                                                           &kp BSPC   &kp BSPC   &kp END    &kp RALT
                                                                       &kp PGUP   &kp PGDN
                                                 &kp RET    &kp LGUI                         &mo 2      &kp SPC
                                                                       &mo 1      &kp RCTL
@@ -46,10 +46,10 @@
     &bt BT_SEL 2 &none      &kp LARW   &kp DARW   &kp RARW   &none                            &none      &kp LPRN   &kp RPRN   &kp LCUR   &kp RCUR   &none
     &kp LSFT     &none      &none      &none      &none      &none      &none      &none      &none      &kp LBKT   &kp RBKT   &none      &none      &kp RSFT
     &none        &none      &none      &none      &none                                                  &none      &none      &none      &none      &none
-                                                             &none      &none      &none      &none
-                                                                      &none      &none
-                                                &kp LA(RET)  &none                            &none      &none
-                                                                      &none      &none
+                                                             &kp DEL    &none      &none      &none
+                                                                        &none      &none
+                                                &kp BSPC     &kp LA(RET)                      &none      &none
+                                                                        &none      &none
                         >;
                 };
 
