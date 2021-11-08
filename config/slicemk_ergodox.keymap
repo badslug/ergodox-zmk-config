@@ -7,36 +7,6 @@
         keymap {
                 compatible = "zmk,keymap";
 
-//                layer_0 {
-//                        bindings = <
-//    &bootloader
-//    &kp GRAV    &kp NUM_1     &kp NUM_2      &kp NUM_3     &kp NUM_4     &kp N5     &kp PSCRN    &none        &kp N6     &kp N7     &kp N8     &kp N9     &kp N0      &kp BSLH
-//    &kp TAB     &kp SQT    &kp COMMA   &kp DOT    &kp P      &kp Y      &kp CLCK     &kp C_MUTE   &kp F      &kp G      &kp C      &kp R      &kp L       &kp FSLH
-//    &kp ESC     &kp A      &kp O       &kp E      &kp U      &kp I                                &kp D      &kp H      &kp T      &kp N      &kp S       &kp MINUS
-//    &kp LSHIFT  &kp SEMI   &kp O       &kp J      &kp K      &kp X      &kp C_VOL_DN &kp C_VOL_UP &kp B      &kp M      &kp W      &kp V      &kp Z       &kp RSHIFT
-//    &kp BSPC    &kp LCTRL  &kp LALT    &kp LEFT   &kp RIGHT                                                  &kp UP     &kp DOWN   &kp RALT   &kp RGUI    &none
-//                                                           &kp EQUAL  &kp HOME       &kp END      &kp RALT
-//                                                                      &kp PG_UP      &kp PG_DN
-//                                                &kp RET    &kp LGUI                               &mo 2    &kp SPACE
-//                                                                      &mo 1          &kp RCTRL
-//                        >;
-//                };
-
-//                layer_1 {
-//                        bindings = <
-//    &bootloader
-//    &none       &none      &none      &none      &none      &none      &none      &none      &none      &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_MINUS &kp BSPC
-//    &none       &kp F1     &kp F2     &kp F3     &kp F4     &none      &none      &none      &none      &kp KP_N7    &kp KP_N8     &kp KP_N9       &kp KP_PLUS  &kp DEL
-//    &none       &kp F5     &kp F6     &kp F7     &kp F8     &none                            &none      &kp KP_N4    &kp KP_N5     &kp KP_N6       &kp KP_PLUS  &none
-//    &none       &kp F9     &kp F10    &kp F11    &kp F12    &none      &none      &none      &none      &kp KP_N1    &kp KP_N2     &kp KP_N3       &kp KP_ENTER &none
-//    &none       &none      &none      &none      &none                                                  &kp KP_N0    &kp KP_N0     &kp KP_DOT      &kp KP_ENTER &none
-//                                                           &none      &none      &none      &none
-//                                                                      &none      &none
-//                                                &kp BSPC   &DEL                             &none      &none
-//                                                                      &none      &none
-//                        >;
-//                };
-
                 layer_0 {
                         bindings = <
     &bootloader
@@ -55,14 +25,14 @@
                 layer_1 {
                         bindings = <
     &bootloader
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_CLR
-    &none      &kp F1     &kp F2     &kp F3     &kp F4     &none      &none      &none      &none      &none      &none      &none      &none      &out OUT_USB
-    &none      &kp F5     &kp F6     &kp F7     &kp F8     &none                            &none      &none      &none      &none      &none      &out OUT_BLE
-    &none      &kp F9     &kp F10    &kp F11    &kp F12    &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &none      &none      &none      &none      &none                                                  &none      &none      &none      &none      &out OUT_TOG
+    &none       &none      &none      &none      &none      &none      &none      &none      &none      &kp EQL   &kp KDIV   &kp KMLT   &kp KMIN     &kp BSPC
+    &none       &kp F1     &kp F2     &kp F3     &kp F4     &none      &none      &none      &none      &kp KP_N7 &kp KP_N8  &kp KP_N9  &kp KPLS     &kp DEL
+    &none       &kp F5     &kp F6     &kp F7     &kp F8     &none                            &none      &kp KP_N4 &kp KP_N5  &kp KP_N6  &kp KPLS     &none
+    &none       &kp F9     &kp F10    &kp F11    &kp F12    &none      &none      &none      &none      &kp KP_N1 &kp KP_N2  &kp KP_N3  &kp KP_ENTER &none
+    &none       &none      &none      &none      &none                                                  &kp KP_N0 &kp KP_N0  &kp KP_DOT &kp KP_ENTER &none
                                                            &none      &none      &none      &none
                                                                       &none      &none
-                                                &none      &none                            &none      &none
+                                                &kp BSPC   &kp DEL                          &none      &none
                                                                       &none      &none
                         >;
                 };
